@@ -7,6 +7,22 @@ import { Component } from '@angular/core';
 })
 export class ListarPensamentoComponent {
 
-  listaPensamentos = [];
+  listaPensamentos = [
+    {
+      conteudo:'Passo informações para o componente filho',
+      autoria: 'Componente pai',
+      modelo: 'modelo3'
+    },
+    {
+      conteudo:'Minha propriedade é decorada com @Input',
+      autoria: 'Componente filho',
+      modelo: 'modelo2'
+    },
+    {
+      conteudo:'kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk',
+      autoria: '',
+      modelo: 'modelo1'
+    }
+  ];
 
 }
