@@ -1,22 +1,40 @@
 {
-  "pensamentos" : [
+  "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Que bom que você veio",
-      "autoria": "Nay",
-      "modelo": "modelo1"
+      "conteudo": "Ahhh... sim... finalmente te achei!!!!",
+      "autoria": "Dev doida",
+      "modelo": "modelo3"
     },
     {
-      "id": 1,
-      "conteudo": "Estudando Angular",
-      "autoria": "Dev Alura",
+      "id": 2,
+      "conteudo": "A vida é uma chance!!",
+      "autoria": "Desconhecido",
       "modelo": "modelo2"
     },
     {
-      "id": 1,
-      "conteudo": "Angular é o melhor",
-      "autoria": "Nay",
-      "modelo": "modelo3"
+      "id": 3,
+      "conteudo": "Bora Codar!!!  Bora Codar!!!!",
+      "autoria": "Jenny",
+      "modelo": "modelo1"
+    },
+    {
+      "conteudo": "Testando a aplicação",
+      "autoria": "Jennyfer",
+      "modelo": "modelo1",
+      "id": 4
+    },
+    {
+      "conteudo": "Bora continuar testando",
+      "autoria": "Dev estudiosa",
+      "modelo": "modelo3",
+      "id": 5
+    },
+    {
+      "conteudo": "Bora testar",
+      "autoria": "Dev ",
+      "modelo": "modelo2",
+      "id": 6
     }
   ]
 }
