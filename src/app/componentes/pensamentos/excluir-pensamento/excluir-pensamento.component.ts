@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./excluir-pensamento.component.css']
 })
 
-export class ExcluirPensamentoComponent {
+export class ExcluirPensamentoComponent implements OnInit{
 
   pensamento: Pensamento = {
     id: 0,
@@ -23,6 +23,9 @@ export class ExcluirPensamentoComponent {
     private router: Router,
     private route: ActivatedRoute
     ){}
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 
 
   ngOninit(): void {
@@ -32,14 +35,25 @@ export class ExcluirPensamentoComponent {
     })
   }
 
+
+  // excluirPensamento() {
+  //   if(this.pensamento.id){
+  //     this.service.excluir(this.pensamento.id).subscribe(() => {
+  //       this.router.navigate(['/listarPensamento'])
+  //       alert("to aqui")
+  //     })
+  //   }
+  // }
+
   excluirPensamento() {
     if(this.pensamento.id){
-      this.service.excluir(this.pensamento.id).subscribe(() => {
+      this.service.excluir(this.pensamento.id).subscribe(()=> {
         this.router.navigate(['/listarPensamento'])
       })
-    }
-  }
 
+    }
+
+  }
   cancelarPensamento() {
     this.router.navigate(['/listarPensamento'])
   }
